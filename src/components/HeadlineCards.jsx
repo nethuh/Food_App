@@ -11,7 +11,8 @@ const HeadlineCards = () => {
                     <p className='px-2'>Through 8/26</p>
                     <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
                 </div>
-                <img src='https://img.freepik.com/free-photo/grilled-cheeseburger-sesame-bun-with-fresh-toppings-generative-ai_188544-12325.jpg?size=626&ext=jpg&uid=R94049744&ga=GA1.2.1536149295.1697625185&semt=sph'/>
+                <img
+                    className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src='https://img.freepik.com/free-photo/grilled-cheeseburger-sesame-bun-with-fresh-toppings-generative-ai_188544-12325.jpg?size=626&ext=jpg&uid=R94049744&ga=GA1.2.1536149295.1697625185&semt=sph'/>
             </div>
         </div>
     );
